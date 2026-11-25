@@ -9,8 +9,9 @@ def rectangle(x,y,w,h):
     Cette fonction dessine un rectangle Le point de coordonnées (x,y) est
     sur le côté en bas au milieu
     '''
+    turtle.penup()
     turtle.goto(x,y)
-    turtle.pendown
+    turtle.pendown()
     for i in range(2):
         turtle.forward(w)
         turtle.left(90)
