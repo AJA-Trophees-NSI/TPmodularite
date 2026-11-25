@@ -13,13 +13,12 @@ def fenetre_balcon(x,y):
     '''
     # porte-fenetre
 
-    pass
-
+    rectangle(x,y,30,50)
 
     # balcon
 
-
-    pass
+    for i in range (7):
+        rectangle(x+25-i*5,y,10,25)
 
 
 
